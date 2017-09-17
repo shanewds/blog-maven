@@ -21,7 +21,7 @@ public class BookController {
     	TTResult result=bookService.createBook(book);
         return result;
     }
-    //http://localhost:8080/Blog/query?id=2
+    //http://localhost:8080/query?id=2
     @RequestMapping(value="/query",method=RequestMethod.GET)
     @ResponseBody
     private TTResult queryBook(Integer id){
