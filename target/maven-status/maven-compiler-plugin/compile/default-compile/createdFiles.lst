@@ -1,0 +1,13 @@
+com\blog\pojo\BookExample$Criteria.class
+com\blog\utils\IDUtils.class
+com\blog\dao\BookMapper.class
+com\blog\service\BookService.class
+com\blog\service\BookServiceImpl.class
+com\blog\pojo\BookExample.class
+com\blog\utils\JsonUtils.class
+com\blog\controller\BookController.class
+com\blog\utils\TTResult.class
+com\blog\pojo\BookExample$Criterion.class
+com\blog\controller\IndexController.class
+com\blog\pojo\Book.class
+com\blog\pojo\BookExample$GeneratedCriteria.class
