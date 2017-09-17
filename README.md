@@ -1,7 +1,7 @@
 # blog-maven
 基本的ssm框架的maven版本
 
-<1>windows7下安装maven步骤
+   windows7下安装maven步骤
    第一步:首先电脑要安装jdk,具体步骤如下:
             环境变量配置步骤
              安装完JDK后配置环境变量  计算机→属性→高级系统设置→高级→环境变量
