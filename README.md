@@ -3,8 +3,8 @@
 
 <1>windows7下安装maven步骤
    第一步:首先电脑要安装jdk,具体步骤如下:
-         环境变量配置步骤
-          安装完JDK后配置环境变量  计算机→属性→高级系统设置→高级→环境变量
+            环境变量配置步骤
+             安装完JDK后配置环境变量  计算机→属性→高级系统设置→高级→环境变量
           1.系统变量→新建 JAVA_HOME 变量 。
           变量值填写jdk的安装目录（eg. E:\Java\jdk1.7.0)
           2.系统变量→寻找 Path 变量→编辑
@@ -19,7 +19,7 @@
             （2）JRE配置成功，在dos命令下运行java -version
    第二步:下载Maven的安装包，下载链接：http://maven.apache.org/download.cgi
        点击 apache-maven-3.2.2-bin.zip 链接下载 3.2.2版本的mavn包。
-       下载后的文件为apache-maven-3.2.5-bin.zip 压缩包，将其解压到一个固定的文件夹。放在某一个磁盘下如:E:\server\apache-maven-3.2.2
+       下载后的文件为apache-maven-3.2.2-bin.zip 压缩包，将其解压到一个固定的文件夹。放在某一个磁盘下如:E:\server\apache-maven-3.2.2
        而maven仓库所存放的位置是:E:\server\RepMaven; 修改E:\server\apache-maven-3.2.2\conf\settings.xml 
        添加仓库的位置<localRepository>E:\server\RepMaven</localRepository>
        
