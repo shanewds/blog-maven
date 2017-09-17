@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
    
-	//http://localhost:8080/Blog/
+	//http://localhost:8080/
 	@RequestMapping("/")
 	public String index(){
 		return "index";
